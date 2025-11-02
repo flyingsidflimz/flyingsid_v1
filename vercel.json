@@ -1,6 +1,6 @@
 {
-  "buildCommand": "bash vercel-build.sh",
+  "buildCommand": "chmod +x ./node_modules/.bin/vite && npm run build",
+  "installCommand": "npm ci",
   "outputDirectory": "dist",
-  "framework": null,
-  "installCommand": "npm ci"
+  "framework": "vite"
 }
