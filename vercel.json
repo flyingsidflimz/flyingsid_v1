@@ -1,7 +1,6 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "bash vercel-build.sh",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "installCommand": "npm install",
-  "ignoreCommand": "false"
+  "framework": null,
+  "installCommand": "npm ci"
 }
