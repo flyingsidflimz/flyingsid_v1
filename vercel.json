@@ -1,6 +1,6 @@
 {
   "builds": [
-    { "src": "vite.config.mjs", "use": "@vercel/static-build" }
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "routes": [
     { "handle": "filesystem" },
