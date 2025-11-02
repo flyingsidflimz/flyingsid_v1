@@ -1,0 +1,58 @@
+/* Base global styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffcc00;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url("/src/assets/bg/drone-glow-overlay.png") no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000;
+  color: white;
+  overflow-x: hidden;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1400px;
+}
+
+@keyframes droneGlow {
+  0% { filter: brightness(0.8) saturate(1); }
+  50% { filter: brightness(1.2) saturate(1.3); }
+  100% { filter: brightness(0.8) saturate(1); }
+}
+
+body {
+  animation: droneGlow 6s ease-in-out infinite;
+}
+
+.app-container {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,74 @@
+.client-folio {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: radial-gradient(circle at center, #000 40%, #050505 100%);
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.map-title {
+  font-size: 2rem;
+  color: #ffd700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.map-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.world-map {
+  width: 100%;
+  opacity: 0.15;
+  filter: brightness(1.2);
+}
+
+.map-dot {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle, #ffd700 0%, #ff9900 60%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 12px 4px rgba(255, 200, 0, 0.5);
+  animation: pulse 2s infinite ease-in-out;
+  cursor: pointer;
+}
+
+.map-dot:hover .tooltip {
+  opacity: 1;
+  transform: translate(-50%, -150%) scale(1);
+}
+
+.tooltip {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, -120%) scale(0.9);
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffd700;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}

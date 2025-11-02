@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.video-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+}
+.overlay h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+.drive-section {
+  padding: 2rem 0;
+}
+.drive-frame {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
+.contact {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 1rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+}
+.contact-form button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.splash-screen {
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.splash-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  border-top: 4px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
