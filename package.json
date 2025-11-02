@@ -15,9 +15,7 @@
     "react-icons": "^5.5.0",
     "react-intersection-observer": "^10.0.0",
     "react-router-dom": "^7.9.5",
-    "vanilla-tilt": "^1.8.1"
-  },
-  "devDependencies": {
+    "vanilla-tilt": "^1.8.1",
     "vite": "^5.4.10"
   },
   "engines": {

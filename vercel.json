@@ -1,9 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install",
   "outputDirectory": "dist",
   "framework": "vite",
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "installCommand": "npm install",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD .",
+  "env": {
+    "CI": "false",
+    "NODE_ENV": "production"
+  }
 }
