@@ -1,12 +1,11 @@
 {
-  "version": 2,
-  "buildCommand": "npm install vite && npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite",
-  "env": {
-    "CI": "false",
-    "NODE_ENV": "production"
-  },
+  "builds": [
+    {
+      "src": "vite.config.mjs",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
