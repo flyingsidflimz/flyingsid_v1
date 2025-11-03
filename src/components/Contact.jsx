@@ -124,14 +124,8 @@ export default function Contact() {
           }}
         >
           <a href="tel:+919359886235" style={iconStyle("#f1f1f1ff")}>
-            <FaPhoneAlt /> <span>Phone</span>
+            <FaPhoneAlt /> <span>+91 9359886235</span>
           </a>
-          <a
-            href="+91 9359886235"
-            target="_blank"
-            rel="noreferrer"
-            style={iconStyle("#f3f0f1ff")}
-          ></a>
           <a
             href="mailto:flyingsidflimz@gmail.com"
             style={iconStyle("#f09fbaff")}
@@ -173,7 +167,7 @@ export default function Contact() {
         </div>
 
         <p style={{ fontSize: "14px", color: "#888" }}>
-          © {new Date().getFullYear()} FLYING SID Flimz — All Rights Reserved
+          © {new Date().getFullYear()} FLYING SID Filmz — All Rights Reserved
         </p>
       </footer>
     </>
