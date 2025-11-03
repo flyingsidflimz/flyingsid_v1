@@ -133,7 +133,7 @@ export default function Contact() {
             <FaEnvelope /> <span>Email</span>
           </a>
           <a
-            href="https://www.instagram.com/flyingsidflimz"
+            href="https://www.instagram.com/flyingsid09"
             target="_blank"
             rel="noreferrer"
             style={iconStyle("#E1306C")}
@@ -141,7 +141,7 @@ export default function Contact() {
             <FaInstagram /> <span>Instagram</span>
           </a>
           <a
-            href="https://www.instagram.com/flyingsid09"
+            href="https://www.instagram.com/flyingsidfilmz"
             target="_blank"
             rel="noreferrer"
             style={iconStyle("#FCAF45")}

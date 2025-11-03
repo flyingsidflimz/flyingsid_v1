@@ -65,7 +65,7 @@ export default function VideoSection() {
             marginBottom: "10px",
           }}
         >
-          FLYING SID FLIMZ CINEMATICS
+          FLYING SID FILMZ CINEMATICS
         </h1>
         <p
           style={{
