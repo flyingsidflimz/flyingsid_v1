@@ -124,8 +124,14 @@ export default function Contact() {
           }}
         >
           <a href="tel:+919359886235" style={iconStyle("#f1f1f1ff")}>
-            <FaPhoneAlt /> <span>+91 9359886235</span>
+            <FaPhoneAlt /> <span>Phone</span>
           </a>
+          <a
+            href="+91 9359886235"
+            target="_blank"
+            rel="noreferrer"
+            style={iconStyle("#f3f0f1ff")}
+          ></a>
           <a
             href="mailto:flyingsidflimz@gmail.com"
             style={iconStyle("#f09fbaff")}
